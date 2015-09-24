@@ -21,7 +21,7 @@ __title__ = "pep470"
 __summary__ = "Script to enable downloading files for the PEP 470 migration."
 __uri__ = "https://github.com/pypa/pep470"
 
-__version__ = "15.0.dev0"
+__version__ = "15.0"
 
 __author__ = "The Python Packaging Authority"
 __email__ = "donald@stufft.io"
