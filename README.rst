@@ -5,6 +5,22 @@ pep470 is a small tool which enables users to easily upload their files to PyPI
 during the PEP470 migration phase.
 
 
+Usage
+-----
+
+To use pep470, simply execute the ``pep470`` CLI utility with a list of one or
+more project names like:
+
+.. code-block:: console
+
+    $ pep470 foo bar spam
+    Downloading |################################| 3/3
+    Downloaded all externally hosted files, upload to PyPI using `twine upload --skip-existing dist/*`
+
+Once that has executed, then simply run ``twine upload --skip-existing dist/*``
+to upload all of the files it has found to PyPI.
+
+
 Discussion
 ----------
 
